@@ -1,6 +1,4 @@
-# EL-ADMIN-DOC
-
-EL-ADMIN 文档源码
+# Calvin-BOOkS-DOCS (书籍总结)
 
 ## Build Setup
 ``` bash
@@ -14,8 +12,3 @@ yarn docs:dev
 yarn docs:build
 ```
 
-## License
-[Version 2.0](https://github.com/elunez/eladmin-doc/blob/master/LICENSE)
-
-
->Powered by [vuepress](https://vuepress.vuejs.org/zh/)

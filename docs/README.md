@@ -16,5 +16,5 @@ features:
   details: 
 - title: 历史人文
   details: 
-footer:  Apache License 2.0 | Copyright © 2018-present Zheng Jie
+footer:  Apache License 2.0 | Copyright © 2020-present Calvin
 ---
