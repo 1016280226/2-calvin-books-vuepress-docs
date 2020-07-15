@@ -1,20 +1,27 @@
 module.exports = {
     // 插件
-    plugins: {
-        '@vuepress/back-to-top': {}
-    },
+    plugins: [
+        '@org/foo',
+        '@vuepress/back-to-top',
+        '@vuepress/plugin-active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor' 
+        },
+        'markdown-it-bar'
+    ],
     // 头部
     head: [
         ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
         ['link', {rel: 'icon', href: '/logo/small.png'}]
     ],
+    
     // 网站标题及描述
     title: 'Calvin Books',
     description: '自律成就自由，学习改变未来 ！',
     // 主题配置
     themeConfig: {
         // 提取markdown中h2 和 h3 标题，显示在侧边栏上。
-        sidebarDepth: 2,
+        sidebarDepth: 3,
         lastUpdated: '更新时间',
         // logo
         logo: '/logo/small.png',
@@ -66,7 +73,7 @@ module.exports = {
                 title: '管理提升',
                 path: '/books/manager/',
                 collapsable: false, // 可选的,
-                sidebarDepth: 1,    // 可选的,
+                sidebarDepth: 2,    // 可选的,
                 children: [
                 ]
             },
@@ -74,7 +81,7 @@ module.exports = {
                 title: '职场效能',
                 path: '/books/worker/',
                 collapsable: false, // 可选的,
-                sidebarDepth: 1,    // 可选的,
+                sidebarDepth: 2,    // 可选的,
                 children: [
                 ]
             },
@@ -82,7 +89,7 @@ module.exports = {
                 title: '家庭培养',
                 path: '/books/family/',
                 collapsable: false, // 可选的,
-                sidebarDepth: 1,    // 可选的,
+                sidebarDepth: 2,    // 可选的,
                 children: [
                 ]
             },
@@ -90,7 +97,7 @@ module.exports = {
                 title: '生活体验',
                 path: '/books/life/',
                 collapsable: false, // 可选的,
-                sidebarDepth: 1,    // 可选的,
+                sidebarDepth: 2,    // 可选的,
                 children: [
                 ]
             },
@@ -98,7 +105,7 @@ module.exports = {
                 title: '历史人文',
                 path: '/books/history/',
                 collapsable: false, // 可选的,
-                sidebarDepth: 1,    // 可选的,
+                sidebarDepth: 2,    // 可选的,
                 children: [
                 ]
             },
