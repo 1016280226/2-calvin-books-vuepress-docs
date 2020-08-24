@@ -18,11 +18,15 @@ comment: false
 
 ## <font size=6px color=#3eaf7c>心灵精神：</font>
 
-### <a href="../books/soul/1-思维的囚徒"><font size=5px color=#ff6702 ><b> 1.《思维的囚徒》●  亚历克斯.佩塔克斯</b></font></a>
+### <a href="../books/soul/1-思维的囚徒"><font size=5px color=#ff6702 ><b> 1.《思维的囚徒》●  亚历克斯·佩塔克斯</b></font></a>
 
 ## <font size=6px color=#3eaf7c><b>管理提升：</b></font>
 
 ### <a href="../books/manager/1-高效能人士的七个习惯"><font size=5px color=#ff6702 ><b>1 .《高效能人士的七个习惯》● 史蒂芬·柯维 </b></font></a>
+
+### <a href="../books/manager/2-搞定I.md"><font size=5px color=#ff6702 ><b>2 .《搞定 I》● 戴维·艾伦 </b></font></a>
+
+
 
 ## <font size=6px color=#3eaf7c><b>职场效能：</b></font>
 

@@ -75,7 +75,8 @@ module.exports = {
                 collapsable: false, // 可选的,
                 sidebarDepth: 2,    // 可选的,
                 children: [
-                    '/books/manager/1-高效能人士的七个习惯'
+                    '/books/manager/1-高效能人士的七个习惯',
+                    '/books/manager/2-搞定I'
                 ]
             },
             {
